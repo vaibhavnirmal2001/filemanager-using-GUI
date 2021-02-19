@@ -112,8 +112,8 @@ class Queue:
 if __name__ == '__main__':
 	q = Queue()
 	q.enQueue('\t>>> Vaibhav Nirmal \tID:(19007058)')
-	q.enQueue('\t>>> Aditi Nimkar  \tID:(19007062)')
-	q.enQueue('\t>>> Anusha Sahi  \tID:(19007053)')
+# 	q.enQueue('\t>>> Aditi Nimkar  \tID:(19007062)')
+# 	q.enQueue('\t>>> Anusha Sahi  \tID:(19007053)')
 
 	print(q.deQueue())
 	print(q.deQueue())
