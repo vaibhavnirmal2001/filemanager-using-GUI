@@ -10,6 +10,8 @@ from tkinter import filedialog
 from tkinter import messagebox as mb
 
 
+
+
 def open_window():
     read = easygui.fileopenbox()
     return read
@@ -137,6 +139,8 @@ Button(root, text="Open a File", command=open_file, padx="20", pady="5", borderw
 Button(root, text="Copy a File", command=copy_file, padx="20", pady="5", borderwidth="10", bg="black", fg="white",
        font=("Helvetica 16 bold")).grid(row=25, column=2)
 
+
+
 Button(root, text="Delete a File", command=delete_file, padx="20", pady="5", borderwidth="10", bg="black", fg="white",
        font=("Helvetica 16 bold")).grid(row=35, column=2)
 
@@ -152,8 +156,10 @@ Button(root, text="Make a Folder", command=make_folder, padx="20", pady="5", bor
 Button(root, text="Remove a Folder", command=remove_folder, padx="20", pady="5", borderwidth="10", bg="black",
        fg="white", font=("Helvetica 16 bold")).grid(row=65, column=2)
 
-Button(root, text="List all Files in Directory", command=list_files, padx="20", pady="5", borderwidth="10", bg="black",
+Button(root, text="List all Files in The Directory", command=list_files, padx="20", pady="5", borderwidth="10", bg="black",
        fg="white", font=("Helvetica 16 bold")).grid(row=85, column=2)
+
+
 root.mainloop()
 
 
